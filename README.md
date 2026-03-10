@@ -1,9 +1,12 @@
+Student Name: Disha Verma
 
-# AI-Based Emotion Recognition from Text
+Project Title:
+AI-Based Emotion Recognition from Text
 
-## Project Overview
-This project detects human emotions from text using Machine Learning. 
-It classifies text into one of six emotions:
+Project Description:
+This project focuses on building a machine learning system that can detect emotions from textual input. The system analyzes a sentence entered by the user and predicts the emotion expressed in the text.
+
+The project classifies text into the following emotions:
 - Sadness
 - Joy
 - Love
@@ -11,32 +14,24 @@ It classifies text into one of six emotions:
 - Fear
 - Surprise
 
-## Dataset
-The model was trained on a Kaggle Emotion Dataset containing:
-- 16,000 training samples
-- 2,000 validation samples
-- 2,000 testing samples
+Methodology:
+1. Dataset Collection  
+   The dataset used for training the model is the Kaggle Emotion Dataset containing labeled text samples.
 
-## Model Used
-- TF-IDF Vectorization
-- Logistic Regression Classifier
+2. Data Preprocessing  
+   Text data was cleaned and prepared using standard preprocessing techniques.
 
-## Model Performance
-Accuracy on test data: ~89%
+3. Feature Extraction  
+   TF-IDF Vectorization was used to convert text into numerical features.
 
-## How It Works
-1. Text input is converted into numerical features using TF-IDF.
-2. Logistic Regression predicts the emotion.
-3. The UI displays predicted emotion with confidence score.
+4. Model Training  
+   Logistic Regression was used as the classification model.
 
-## Technologies Used
-- Python
-- Scikit-learn
-- Streamlit
-- Pandas
+5. Model Evaluation  
+   The model was evaluated using a separate test dataset and achieved approximately 89% accuracy.
 
-## How to Run
+Results:
+The model successfully predicts emotional categories from text with an accuracy of approximately 89%.
 
-1. Activate virtual environment: venv\Scripts\activate
+## Project Structure
 
-2. Run the app: streamlit run app.py
